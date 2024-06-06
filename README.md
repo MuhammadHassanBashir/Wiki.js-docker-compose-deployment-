@@ -38,8 +38,8 @@ Below is the Docker Compose configuration file (docker-compose.yml) for deployin
       ports:
         - "8080:3000"
   
-  volumes:
-    db-data:
+    volumes:
+      db-data:
 
 **Deployment Steps**
 **Deploy Wiki.js and PostgreSQL:**
