@@ -7,9 +7,8 @@ This document provides step-by-step instructions for deploying Wiki.js using Doc
 Docker Compose Configuration
 Below is the Docker Compose configuration file (docker-compose.yml) for deploying Wiki.js and PostgreSQL database:
 
-yaml
-Copy code
-version: "3"
+
+**version: "3"**
 services:
 
   db:
